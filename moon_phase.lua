@@ -29,7 +29,7 @@ local function getMoonPhase()
 end
 
 local moonPhase, moonAge, moonIllumination, moonSign = getMoonPhase()
-print("Moon Phase         :", moonPhase)
-print("Moon Age           :", moonAge)
-print("Moon Illumination  :", moonIllumination)
-print("Moon Sign          :", moonSign)
+print(string.format("Moon Phase         : %s", moonPhase))
+print(string.format("Moon Age           : %s", moonAge))
+print(string.format("Moon Illumination  : %s", moonIllumination))
+print(string.format("Moon Sign          : %s", moonSign))
