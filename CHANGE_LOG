@@ -1,4 +1,8 @@
 
+version: 0.0.3
+
+- style: using string.format for output
+
 version: 0.0.2
 
 - feat: added moon illumination
